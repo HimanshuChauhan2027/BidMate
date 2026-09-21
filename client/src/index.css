@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Manrope", sans-serif;
+}
+
+:root {
+    color: #172033;
+    background: #f5f7fb;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background: #f5f7fb;
+    color: #172033;
+    font-family: "Manrope", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+::selection {
+    background: #99f6e4;
+    color: #134e4a;
+}
